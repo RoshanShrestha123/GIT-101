@@ -1,4 +1,4 @@
-# GIT 101
+# GIT 101 🚀
 
 ## How do i know if **GIT** is already setup on my machine?
 
@@ -38,7 +38,7 @@ You can set the Line Ending to autocrlf=true to handle the inconsistencies if yo
 
 ## Now we are ready to use the git 🙌
 
-### Basic git commands
+### Basic git commands 🍀
 |Command|Description|
 |---|----|
 |`git init` | Type this inside any folder, this will initialize the git on that particular folder.
@@ -47,6 +47,15 @@ You can set the Line Ending to autocrlf=true to handle the inconsistencies if yo
 |`git commit -m "message"`| Adding the commit message to the file added|
 |`git status`| Check the status of what file is being added or committed|
 |`git log`|This is showcase the history of all the committed message, when & by whom|
+
+
+### Working with branches commands 🍀
+|Command|Description|
+|---|----|
+|`git branch <branch-name>`| Create new branch |
+|`git checkout <branch-name>`| Switch to already created branch|
+|`git checkout -b <branch-name>`|Create branch & Switch with single command|
+|`git merge <source-branch>`| This will merge source branch to the currently active branch |
 
 
 
