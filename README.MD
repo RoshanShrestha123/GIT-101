@@ -15,4 +15,13 @@ Also, if you are using mac or linux, most probably git is installed by default.
 - Configure git with your name & email. Copy &  following command on your terminal/gitbash/cmd & provide your name & email at a time. 
 - ```git config --global user.name "type-your-name"```
 - ```git config --global user.email "type-your-email"```
+- Now you are successfully configure the git with your name & email, you can verify once with this command: `git config --list`
+  
+#### [Advance configuration, totally optional]
+- ```git config --global core.editor "your-editor-command"``` This command will set your default commit editor to your fav editor. Default should be `vim` you can replace it with `nano` or `code`.
+- ```git config --global core.autocrlf true``` . You can set the Line Ending to autocrlf=true to handle the inconsistencies if your team will be working on different OS.
+
+
+
+
 
